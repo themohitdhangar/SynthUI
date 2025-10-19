@@ -36,7 +36,7 @@ const Home = () => {
   }
 
   // `GEMINI_API_KEY`.
-  const ai = new GoogleGenAI({apiKey: "AIzaSyCs6F15ma06u4OrQ0FQ6c8_fWm_YVgTOOM"});
+  const ai = new GoogleGenAI({apiKey: "YOUR_API_KEY_HERE"});
 
   async function getResponse() {
 
